@@ -8,7 +8,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <div className="text-2xl font-bold text-emerald-600">ð» Kodiak</div>
+              <div className="text-2xl font-bold text-emerald-600">
+                <span className="bg-emerald-600 text-white px-2 py-0.5 rounded mr-1">K</span>
+                Kodiak
+              </div>
               <span className="text-sm text-slate-500">Durham Region</span>
             </div>
             <div className="hidden md:flex space-x-8">
@@ -35,10 +38,10 @@ export default function Home() {
               <span className="text-emerald-600">Simplified</span>
             </h1>
             <p className="text-xl text-slate-600 mb-4 max-w-2xl mx-auto">
-              Unlimited home services for one monthly subscription. Serving Durham Region & GTA East.
+              Unlimited home services for one monthly subscription. Serving Durham Region &amp; GTA East.
             </p>
             <p className="text-sm text-slate-500 mb-8">
-              ð Clarington â¢ Oshawa â¢ Whitby â¢ Ajax â¢ Pickering â¢ Bowmanville
+              Clarington &middot; Oshawa &middot; Whitby &middot; Ajax &middot; Pickering &middot; Bowmanville
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/book" className="bg-emerald-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-emerald-700 transition shadow-lg">
@@ -48,7 +51,7 @@ export default function Home() {
                 Learn More
               </Link>
             </div>
-            <p className="text-sm text-slate-500 mt-4">ð³ No credit card required â¢ Cancel anytime</p>
+            <p className="text-sm text-slate-500 mt-4">No credit card required &middot; Cancel anytime</p>
           </div>
         </div>
       </section>
@@ -62,41 +65,41 @@ export default function Home() {
           <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
             From weekly cleanings to seasonal landscaping, our vetted local contractors handle it all
           </p>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             {/* Cleaning */}
             <div className="border rounded-xl p-8 hover:shadow-lg transition">
-              <div className="text-4xl mb-4">ð§¹</div>
+              <div className="bg-emerald-100 text-emerald-600 rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mb-4">HC</div>
               <h3 className="text-2xl font-bold text-slate-900 mb-3">House Cleaning</h3>
               <ul className="text-slate-600 space-y-2">
-                <li>â Weekly or bi-weekly service</li>
-                <li>â Deep cleaning available</li>
-                <li>â Eco-friendly products</li>
-                <li>â Same cleaner each visit</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Weekly or bi-weekly service</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Deep cleaning available</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Eco-friendly products</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Same cleaner each visit</li>
               </ul>
             </div>
 
             {/* Landscaping */}
             <div className="border rounded-xl p-8 hover:shadow-lg transition">
-              <div className="text-4xl mb-4">ð¿</div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-3">Lawn & Landscaping</h3>
+              <div className="bg-emerald-100 text-emerald-600 rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mb-4">LL</div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-3">Lawn &amp; Landscaping</h3>
               <ul className="text-slate-600 space-y-2">
-                <li>â Lawn mowing & edging</li>
-                <li>â Spring/fall cleanup</li>
-                <li>â Garden maintenance</li>
-                <li>â Snow removal (winter)</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Lawn mowing &amp; edging</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Spring/fall cleanup</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Garden maintenance</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Snow removal (winter)</li>
               </ul>
             </div>
 
             {/* Handyman */}
             <div className="border rounded-xl p-8 hover:shadow-lg transition">
-              <div className="text-4xl mb-4">ð§</div>
+              <div className="bg-emerald-100 text-emerald-600 rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mb-4">HS</div>
               <h3 className="text-2xl font-bold text-slate-900 mb-3">Handyman Services</h3>
               <ul className="text-slate-600 space-y-2">
-                <li>â Minor repairs</li>
-                <li>â Furniture assembly</li>
-                <li>â Painting & touch-ups</li>
-                <li>â Light installations</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Minor repairs</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Furniture assembly</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Painting &amp; touch-ups</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Light installations</li>
               </ul>
             </div>
           </div>
@@ -122,10 +125,10 @@ export default function Home() {
                 <span className="text-slate-600">/month</span>
               </div>
               <ul className="space-y-3 text-slate-600 mb-8">
-                <li>â 2 cleanings per month</li>
-                <li>â 2 lawn services per month</li>
-                <li>â 1 handyman visit per month</li>
-                <li>â Priority booking</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> 2 cleanings per month</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> 2 lawn services per month</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> 1 handyman visit per month</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Priority booking</li>
               </ul>
               <Link href="/book?plan=essential" className="block w-full bg-emerald-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-emerald-700 transition">
                 Get Started
@@ -143,11 +146,11 @@ export default function Home() {
                 <span className="text-slate-600">/month</span>
               </div>
               <ul className="space-y-3 text-slate-600 mb-8">
-                <li>â Weekly cleanings</li>
-                <li>â Weekly lawn service</li>
-                <li>â 3 handyman visits per month</li>
-                <li>â Seasonal services included</li>
-                <li>â 24/7 support</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Weekly cleanings</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Weekly lawn service</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> 3 handyman visits per month</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Seasonal services included</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> 24/7 support</li>
               </ul>
               <Link href="/book?plan=home" className="block w-full bg-emerald-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-emerald-700 transition">
                 Get Started
@@ -162,11 +165,11 @@ export default function Home() {
                 <span className="text-slate-600">/month</span>
               </div>
               <ul className="space-y-3 text-slate-600 mb-8">
-                <li>â Unlimited cleanings</li>
-                <li>â Unlimited lawn service</li>
-                <li>â Unlimited handyman visits</li>
-                <li>â Snow removal guaranteed</li>
-                <li>â Dedicated account manager</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Unlimited cleanings</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Unlimited lawn service</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Unlimited handyman visits</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Snow removal guaranteed</li>
+                <li className="flex items-center"><span className="text-emerald-600 mr-2 font-bold">&#10003;</span> Dedicated account manager</li>
               </ul>
               <Link href="/book?plan=elite" className="block w-full bg-emerald-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-emerald-700 transition">
                 Get Started
@@ -215,7 +218,7 @@ export default function Home() {
             Ready to Simplify Your Life?
           </h2>
           <p className="text-xl mb-8 text-emerald-100">
-            Join hundreds of Durham Region homeowners who've made the switch
+            Join hundreds of Durham Region homeowners who have made the switch
           </p>
           <Link href="/book" className="bg-white text-emerald-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-slate-100 transition inline-block shadow-lg">
             Get Started Today
@@ -228,7 +231,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="text-white font-bold text-xl mb-4">ð» Kodiak</div>
+              <div className="text-white font-bold text-xl mb-4">
+                <span className="bg-emerald-600 text-white px-2 py-0.5 rounded mr-1 text-base">K</span>
+                Kodiak
+              </div>
               <p className="text-sm">Home services made simple for Durham Region</p>
             </div>
             <div>
@@ -252,14 +258,14 @@ export default function Home() {
             <div>
               <h4 className="text-white font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-sm">
-                <li>ð§ Info@KodiakTotalCare.com</li>
-                <li>ð Clarington, ON</li>
-                <li>ð¨ð¦ Proudly Canadian</li>
+                <li>Info@KodiakTotalCare.com</li>
+                <li>Clarington, ON</li>
+                <li>Proudly Canadian</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-slate-800 mt-8 pt-8 text-center text-sm">
-            <p>Â© 2026 Kodiak Home Services. All rights reserved. | Serving Durham Region & GTA East</p>
+            <p>&copy; 2026 Kodiak Home Services. All rights reserved. | Serving Durham Region &amp; GTA East</p>
           </div>
         </div>
       </footer>
