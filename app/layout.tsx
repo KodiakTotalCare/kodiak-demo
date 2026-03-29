@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kodiak Home Services | Durham Region",
-  description: "Unlimited home services for one monthly subscription. Serving Durham Region & GTA East.",
+  title: "Kodiak Total Care | Home Services Subscription - Durham Region",
+  description: "All-inclusive home services for one monthly subscription. Cleaning, landscaping, handyman, seasonal maintenance, and licensed trades. Serving Durham Region and GTA East. From $199/month CAD.",
 };
 
 export default function RootLayout({
